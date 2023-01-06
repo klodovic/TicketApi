@@ -1,0 +1,617 @@
+2023-01-04 17:50:49.041 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-01-04 17:50:50.192 +01:00 [DBG] Entity Framework Core 7.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.1' with options: None
+2023-01-04 17:50:50.849 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-01-04 17:51:23.293 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-01-04 17:51:23.983 +01:00 [DBG] Entity Framework Core 7.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.1' with options: None
+2023-01-04 17:51:24.005 +01:00 [DBG] Creating DbConnection.
+2023-01-04 17:51:24.099 +01:00 [DBG] Created DbConnection. (87ms).
+2023-01-04 17:51:24.104 +01:00 [DBG] Migrating using database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:24.113 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.168 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.175 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:25.182 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2023-01-04 17:51:25.183 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (11ms).
+2023-01-04 17:51:25.189 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-01-04 17:51:25.318 +01:00 [INF] Executed DbCommand (130ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-01-04 17:51:25.320 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.327 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (3ms).
+2023-01-04 17:51:25.331 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-01-04 17:51:25.331 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-01-04 17:51:25.331 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-01-04 17:51:25.331 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.332 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.332 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-01-04 17:51:25.458 +01:00 [INF] Executed DbCommand (126ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-01-04 17:51:25.458 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.459 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 17:51:25.460 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.460 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.460 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:25.460 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:25.460 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:25.460 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-01-04 17:51:25.570 +01:00 [INF] Executed DbCommand (110ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-01-04 17:51:25.570 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.571 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 17:51:25.571 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-01-04 17:51:25.571 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-01-04 17:51:25.571 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-01-04 17:51:25.571 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.571 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.571 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-01-04 17:51:25.679 +01:00 [INF] Executed DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-01-04 17:51:25.679 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.679 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 17:51:25.700 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-01-04 17:51:25.700 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 17:51:25.700 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 17:51:25.700 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.701 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.701 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-01-04 17:51:25.832 +01:00 [INF] Executed DbCommand (131ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-01-04 17:51:25.834 +01:00 [DBG] Closing data reader to 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.834 +01:00 [DBG] A data reader for 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' is being disposed after spending 1ms reading results.
+2023-01-04 17:51:25.835 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.835 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 17:51:25.845 +01:00 [INF] Applying migration '20230104165050_UpdateThreeDatabaseTables'.
+2023-01-04 17:51:25.935 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.935 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:25.937 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-01-04 17:51:26.049 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-01-04 17:51:26.049 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.049 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.050 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.050 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Reports] ADD [LocalUserId] int NOT NULL DEFAULT 0;
+2023-01-04 17:51:26.167 +01:00 [INF] Executed DbCommand (117ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Reports] ADD [LocalUserId] int NOT NULL DEFAULT 0;
+2023-01-04 17:51:26.167 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.167 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.167 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.168 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Passengers] ADD [LocalUserId] int NOT NULL DEFAULT 0;
+2023-01-04 17:51:26.275 +01:00 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Passengers] ADD [LocalUserId] int NOT NULL DEFAULT 0;
+2023-01-04 17:51:26.275 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.275 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.275 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.275 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Carriers] ADD [LocalUserId] int NOT NULL DEFAULT 0;
+2023-01-04 17:51:26.382 +01:00 [INF] Executed DbCommand (106ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Carriers] ADD [LocalUserId] int NOT NULL DEFAULT 0;
+2023-01-04 17:51:26.382 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.382 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.382 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.382 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Carriers] SET [LocalUserId] = 3
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.495 +01:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Carriers] SET [LocalUserId] = 3
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.495 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.495 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.495 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.495 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Carriers] SET [LocalUserId] = 3
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.606 +01:00 [INF] Executed DbCommand (111ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Carriers] SET [LocalUserId] = 3
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.606 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.606 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.606 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.607 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Passengers] SET [DateOfBirth] = '1983-01-04T17:50:50.2321885+01:00', [LocalUserId] = 1
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.721 +01:00 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Passengers] SET [DateOfBirth] = '1983-01-04T17:50:50.2321885+01:00', [LocalUserId] = 1
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.721 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.721 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.721 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.721 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Passengers] SET [DateOfBirth] = '1967-01-04T17:50:50.2321892+01:00', [LocalUserId] = 2
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.830 +01:00 [INF] Executed DbCommand (109ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Passengers] SET [DateOfBirth] = '1967-01-04T17:50:50.2321892+01:00', [LocalUserId] = 2
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.830 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.830 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.830 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.830 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Reports] SET [LocalUserId] = 3
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.946 +01:00 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Reports] SET [LocalUserId] = 3
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:26.946 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:26.946 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.946 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:26.946 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Reports] SET [LocalUserId] = 1
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:27.053 +01:00 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Reports] SET [LocalUserId] = 1
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:27.054 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:27.054 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:27.054 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:27.054 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Schedules] SET [Arrival] = '2023-01-04T20:50:50.2321626+01:00', [Departure] = '2023-01-04T17:50:50.2321573+01:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:27.174 +01:00 [INF] Executed DbCommand (120ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Schedules] SET [Arrival] = '2023-01-04T20:50:50.2321626+01:00', [Departure] = '2023-01-04T17:50:50.2321573+01:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:27.174 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:27.174 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:27.174 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:27.174 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Schedules] SET [Arrival] = '2023-01-04T17:50:50.2321632+01:00', [Departure] = '2023-01-03T17:50:50.2321629+01:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:27.279 +01:00 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Schedules] SET [Arrival] = '2023-01-04T17:50:50.2321632+01:00', [Departure] = '2023-01-03T17:50:50.2321629+01:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:27.280 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:27.280 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:27.280 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:27.280 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Schedules] SET [Arrival] = '2023-01-04T09:50:50.2321635+01:00', [Departure] = '2023-01-04T07:50:50.2321632+01:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:27.385 +01:00 [INF] Executed DbCommand (106ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Schedules] SET [Arrival] = '2023-01-04T09:50:50.2321635+01:00', [Departure] = '2023-01-04T07:50:50.2321632+01:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-01-04 17:51:27.385 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-01-04 17:51:27.386 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:27.386 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-01-04 17:51:27.386 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230104165050_UpdateThreeDatabaseTables', N'7.0.1');
+2023-01-04 17:51:27.493 +01:00 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230104165050_UpdateThreeDatabaseTables', N'7.0.1');
+2023-01-04 17:51:27.494 +01:00 [DBG] Committing transaction.
+2023-01-04 17:51:27.607 +01:00 [DBG] Committed transaction.
+2023-01-04 17:51:27.608 +01:00 [DBG] Disposing transaction.
+2023-01-04 17:51:27.608 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:27.608 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 17:51:27.609 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-01-04 17:51:27.611 +01:00 [DBG] Disposing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:51:27.611 +01:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-01-04 17:56:47.306 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-01-04 17:56:47.422 +01:00 [DBG] Hosting starting
+2023-01-04 17:56:47.476 +01:00 [INF] User profile is available. Using 'C:\Users\Next Design\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-04 17:56:47.480 +01:00 [DBG] Reading data from file 'C:\Users\Next Design\AppData\Local\ASP.NET\DataProtection-Keys\key-9bcf0620-d5c7-4452-aa8d-27b27119242f.xml'.
+2023-01-04 17:56:47.496 +01:00 [DBG] Reading data from file 'C:\Users\Next Design\AppData\Local\ASP.NET\DataProtection-Keys\key-e2631ad2-fdb4-4904-87e9-ceba2c2891d3.xml'.
+2023-01-04 17:56:47.497 +01:00 [DBG] Reading data from file 'C:\Users\Next Design\AppData\Local\ASP.NET\DataProtection-Keys\key-f6a6c618-1bfb-458a-b741-f59b4628a446.xml'.
+2023-01-04 17:56:47.509 +01:00 [DBG] Found key {9bcf0620-d5c7-4452-aa8d-27b27119242f}.
+2023-01-04 17:56:47.515 +01:00 [DBG] Found key {e2631ad2-fdb4-4904-87e9-ceba2c2891d3}.
+2023-01-04 17:56:47.515 +01:00 [DBG] Found key {f6a6c618-1bfb-458a-b741-f59b4628a446}.
+2023-01-04 17:56:47.523 +01:00 [DBG] Considering key {f6a6c618-1bfb-458a-b741-f59b4628a446} with expiration date 2023-03-23 21:29:34Z as default key.
+2023-01-04 17:56:47.525 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-04 17:56:47.528 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-01-04 17:56:47.529 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-04 17:56:47.534 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-01-04 17:56:47.536 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-01-04 17:56:47.539 +01:00 [DBG] Using key {f6a6c618-1bfb-458a-b741-f59b4628a446} as the default key.
+2023-01-04 17:56:47.539 +01:00 [DBG] Key ring with default key {f6a6c618-1bfb-458a-b741-f59b4628a446} was loaded during application startup.
+2023-01-04 17:56:48.674 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FAB496DF0396F2B07A9DBF76455D02FFD96DE225)
+2023-01-04 17:56:48.707 +01:00 [INF] Now listening on: https://localhost:7191
+2023-01-04 17:56:48.707 +01:00 [INF] Now listening on: http://localhost:5149
+2023-01-04 17:56:48.707 +01:00 [DBG] Loaded hosting startup assembly TicketApi
+2023-01-04 17:56:48.707 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-01-04 17:56:48.707 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-01-04 17:56:48.707 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-04 17:56:48.707 +01:00 [INF] Hosting environment: Development
+2023-01-04 17:56:48.707 +01:00 [INF] Content root path: C:\Users\Next Design\Desktop\Programsko inženjerstvo\Projekt\PI_crni\Backend\TicketApi\TicketApi\
+2023-01-04 17:56:48.707 +01:00 [DBG] Hosting started
+2023-01-04 17:56:49.023 +01:00 [DBG] Connection id "0HMNEEILQPLRP" accepted.
+2023-01-04 17:56:49.024 +01:00 [DBG] Connection id "0HMNEEILQPLRP" started.
+2023-01-04 17:56:49.026 +01:00 [DBG] Connection id "0HMNEEILQPLRQ" accepted.
+2023-01-04 17:56:49.034 +01:00 [DBG] Connection id "0HMNEEILQPLRQ" received FIN.
+2023-01-04 17:56:49.039 +01:00 [DBG] Connection id "0HMNEEILQPLRP" received FIN.
+2023-01-04 17:56:49.039 +01:00 [DBG] Connection id "0HMNEEILQPLRQ" started.
+2023-01-04 17:56:49.246 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-04 17:56:49.272 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-04 17:56:49.705 +01:00 [DBG] Connection id "0HMNEEILQPLRP" stopped.
+2023-01-04 17:56:49.709 +01:00 [DBG] Connection id "0HMNEEILQPLRP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-04 17:56:49.713 +01:00 [DBG] Connection id "0HMNEEILQPLRQ" stopped.
+2023-01-04 17:56:49.714 +01:00 [DBG] Connection id "0HMNEEILQPLRQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-04 17:56:51.143 +01:00 [DBG] Connection id "0HMNEEILQPLRR" accepted.
+2023-01-04 17:56:51.144 +01:00 [DBG] Connection id "0HMNEEILQPLRR" started.
+2023-01-04 17:56:51.570 +01:00 [DBG] Connection 0HMNEEILQPLRR established using the following protocol: "Tls12"
+2023-01-04 17:56:51.807 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7191/swagger/index.html - -
+2023-01-04 17:56:51.856 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-01-04 17:56:51.897 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-01-04 17:56:51.898 +01:00 [DBG] Request did not match any endpoints
+2023-01-04 17:56:52.266 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-01-04 17:56:52.961 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-01-04 17:56:52.966 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7191/swagger/index.html - - - 200 - text/html;charset=utf-8 1163.4395ms
+2023-01-04 17:56:53.009 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7191/_framework/aspnetcore-browser-refresh.js - -
+2023-01-04 17:56:53.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7191/_framework/aspnetcore-browser-refresh.js - - - 200 11987 application/javascript;+charset=utf-8 5.7117ms
+2023-01-04 17:56:53.224 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7191/_vs/browserLink - -
+2023-01-04 17:56:53.391 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7191/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 166.7931ms
+2023-01-04 17:56:53.473 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7191/swagger/v1/swagger.json - -
+2023-01-04 17:56:53.474 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-01-04 17:56:53.474 +01:00 [DBG] Request did not match any endpoints
+2023-01-04 17:56:54.891 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7191/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1417.6025ms
+2023-01-04 17:58:21.082 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7191/api/ApiUsers/login application/json 49
+2023-01-04 17:58:21.088 +01:00 [DBG] 1 candidate(s) found for the request path '/api/ApiUsers/login'
+2023-01-04 17:58:21.094 +01:00 [DBG] Endpoint 'TicketApi.Controllers.ApiUsersController.Login (TicketApi)' with route pattern 'api/ApiUsers/login' is valid for the request path '/api/ApiUsers/login'
+2023-01-04 17:58:21.094 +01:00 [DBG] Request matched endpoint 'TicketApi.Controllers.ApiUsersController.Login (TicketApi)'
+2023-01-04 17:58:21.095 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-01-04 17:58:21.361 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-01-04 17:58:21.364 +01:00 [INF] Executing endpoint 'TicketApi.Controllers.ApiUsersController.Login (TicketApi)'
+2023-01-04 17:58:21.406 +01:00 [INF] Route matched with {action = "Login", controller = "ApiUsers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TicketApi.ModelsDTO.User.LoginRequestDTO) on controller TicketApi.Controllers.ApiUsersController (TicketApi).
+2023-01-04 17:58:21.407 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-01-04 17:58:21.407 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-01-04 17:58:21.407 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-01-04 17:58:21.408 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-01-04 17:58:21.408 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-01-04 17:58:21.408 +01:00 [DBG] Executing controller factory for controller TicketApi.Controllers.ApiUsersController (TicketApi)
+2023-01-04 17:58:21.603 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-01-04 17:58:21.640 +01:00 [DBG] Executed controller factory for controller TicketApi.Controllers.ApiUsersController (TicketApi)
+2023-01-04 17:58:21.664 +01:00 [DBG] Attempting to bind parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO' ...
+2023-01-04 17:58:21.666 +01:00 [DBG] Attempting to bind parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO' using the name '' in request data ...
+2023-01-04 17:58:21.666 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-01-04 17:58:21.676 +01:00 [DBG] Connection id "0HMNEEILQPLRR", Request id "0HMNEEILQPLRR:00000009": started reading request body.
+2023-01-04 17:58:21.676 +01:00 [DBG] Connection id "0HMNEEILQPLRR", Request id "0HMNEEILQPLRR:00000009": done reading request body.
+2023-01-04 17:58:21.705 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'TicketApi.ModelsDTO.User.LoginRequestDTO'
+2023-01-04 17:58:21.705 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO'.
+2023-01-04 17:58:21.705 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO'.
+2023-01-04 17:58:21.705 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO' ...
+2023-01-04 17:58:21.715 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO'.
+2023-01-04 17:58:22.655 +01:00 [DBG] Entity Framework Core 7.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.1' with options: None
+2023-01-04 17:58:22.754 +01:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.Email == __loginRequestDTO_Email_0 && u.Password == __loginRequestDTO_Password_1)'
+2023-01-04 17:58:23.247 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Email (string) Required, 1], [Property: LocalUser.FirstName (string) Required, 2], [Property: LocalUser.LastName (string) Required, 3], [Property: LocalUser.Password (string) Required, 4], [Property: LocalUser.Phone (string) Required, 5], [Property: LocalUser.Role (string) Required, 6] }
+        SELECT TOP(1) l.Id, l.Email, l.FirstName, l.LastName, l.Password, l.Phone, l.Role
+        FROM LocalUsers AS l
+        WHERE (l.Email == @__loginRequestDTO_Email_0) && (l.Password == @__loginRequestDTO_Password_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    TicketApi.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-01-04 17:58:23.343 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-01-04 17:58:23.347 +01:00 [DBG] Creating DbConnection.
+2023-01-04 17:58:23.392 +01:00 [DBG] Created DbConnection. (40ms).
+2023-01-04 17:58:23.402 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (55ms).
+2023-01-04 17:58:23.413 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (71ms).
+2023-01-04 17:58:23.418 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:24.374 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:24.392 +01:00 [DBG] Executing DbCommand [Parameters=[@__loginRequestDTO_Email_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[FirstName], [l].[LastName], [l].[Password], [l].[Phone], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Email] = @__loginRequestDTO_Email_0 AND [l].[Password] = @__loginRequestDTO_Password_1
+2023-01-04 17:58:24.612 +01:00 [INF] Executed DbCommand (228ms) [Parameters=[@__loginRequestDTO_Email_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[FirstName], [l].[LastName], [l].[Password], [l].[Phone], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Email] = @__loginRequestDTO_Email_0 AND [l].[Password] = @__loginRequestDTO_Password_1
+2023-01-04 17:58:24.620 +01:00 [DBG] Closing data reader to 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:24.634 +01:00 [DBG] A data reader for 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' is being disposed after spending 14ms reading results.
+2023-01-04 17:58:24.637 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:24.649 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (11ms).
+2023-01-04 17:58:24.651 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-01-04 17:58:24.654 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-01-04 17:58:24.654 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-01-04 17:58:24.654 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-01-04 17:58:24.654 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-01-04 17:58:24.655 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'TicketApi.Models.APIResponse'.
+2023-01-04 17:58:24.677 +01:00 [INF] Executed action TicketApi.Controllers.ApiUsersController.Login (TicketApi) in 3263.2615ms
+2023-01-04 17:58:24.678 +01:00 [INF] Executed endpoint 'TicketApi.Controllers.ApiUsersController.Login (TicketApi)'
+2023-01-04 17:58:24.691 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-01-04 17:58:24.722 +01:00 [DBG] Disposing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:24.731 +01:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2023-01-04 17:58:24.731 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7191/api/ApiUsers/login application/json 49 - 400 - application/json;+charset=utf-8 3649.6601ms
+2023-01-04 17:58:48.841 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7191/api/ApiUsers/login application/json 49
+2023-01-04 17:58:48.843 +01:00 [DBG] 1 candidate(s) found for the request path '/api/ApiUsers/login'
+2023-01-04 17:58:48.843 +01:00 [DBG] Endpoint 'TicketApi.Controllers.ApiUsersController.Login (TicketApi)' with route pattern 'api/ApiUsers/login' is valid for the request path '/api/ApiUsers/login'
+2023-01-04 17:58:48.843 +01:00 [DBG] Request matched endpoint 'TicketApi.Controllers.ApiUsersController.Login (TicketApi)'
+2023-01-04 17:58:48.843 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-01-04 17:58:48.843 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-01-04 17:58:48.843 +01:00 [INF] Executing endpoint 'TicketApi.Controllers.ApiUsersController.Login (TicketApi)'
+2023-01-04 17:58:48.844 +01:00 [INF] Route matched with {action = "Login", controller = "ApiUsers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TicketApi.ModelsDTO.User.LoginRequestDTO) on controller TicketApi.Controllers.ApiUsersController (TicketApi).
+2023-01-04 17:58:48.844 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-01-04 17:58:48.844 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-01-04 17:58:48.844 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-01-04 17:58:48.844 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-01-04 17:58:48.844 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-01-04 17:58:48.844 +01:00 [DBG] Executing controller factory for controller TicketApi.Controllers.ApiUsersController (TicketApi)
+2023-01-04 17:58:48.844 +01:00 [DBG] Executed controller factory for controller TicketApi.Controllers.ApiUsersController (TicketApi)
+2023-01-04 17:58:48.844 +01:00 [DBG] Attempting to bind parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO' ...
+2023-01-04 17:58:48.845 +01:00 [DBG] Attempting to bind parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO' using the name '' in request data ...
+2023-01-04 17:58:48.845 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-01-04 17:58:48.845 +01:00 [DBG] Connection id "0HMNEEILQPLRR", Request id "0HMNEEILQPLRR:0000000B": started reading request body.
+2023-01-04 17:58:48.845 +01:00 [DBG] Connection id "0HMNEEILQPLRR", Request id "0HMNEEILQPLRR:0000000B": done reading request body.
+2023-01-04 17:58:48.845 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'TicketApi.ModelsDTO.User.LoginRequestDTO'
+2023-01-04 17:58:48.845 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO'.
+2023-01-04 17:58:48.845 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO'.
+2023-01-04 17:58:48.845 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO' ...
+2023-01-04 17:58:48.845 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'TicketApi.ModelsDTO.User.LoginRequestDTO'.
+2023-01-04 17:58:48.847 +01:00 [DBG] Entity Framework Core 7.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.1' with options: None
+2023-01-04 17:58:48.851 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-01-04 17:58:48.851 +01:00 [DBG] Creating DbConnection.
+2023-01-04 17:58:48.851 +01:00 [DBG] Created DbConnection. (0ms).
+2023-01-04 17:58:48.851 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 17:58:48.851 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 17:58:48.851 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:48.853 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:48.853 +01:00 [DBG] Executing DbCommand [Parameters=[@__loginRequestDTO_Email_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[FirstName], [l].[LastName], [l].[Password], [l].[Phone], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Email] = @__loginRequestDTO_Email_0 AND [l].[Password] = @__loginRequestDTO_Password_1
+2023-01-04 17:58:48.963 +01:00 [INF] Executed DbCommand (110ms) [Parameters=[@__loginRequestDTO_Email_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Email], [l].[FirstName], [l].[LastName], [l].[Password], [l].[Phone], [l].[Role]
+FROM [LocalUsers] AS [l]
+WHERE [l].[Email] = @__loginRequestDTO_Email_0 AND [l].[Password] = @__loginRequestDTO_Password_1
+2023-01-04 17:58:48.995 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-04 17:58:49.018 +01:00 [DBG] Closing data reader to 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:49.018 +01:00 [DBG] A data reader for 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' is being disposed after spending 54ms reading results.
+2023-01-04 17:58:49.018 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:49.018 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 17:58:49.223 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-01-04 17:58:49.223 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-01-04 17:58:49.223 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-01-04 17:58:49.223 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-01-04 17:58:49.223 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-01-04 17:58:49.223 +01:00 [INF] Executing OkObjectResult, writing value of type 'TicketApi.Models.APIResponse'.
+2023-01-04 17:58:49.226 +01:00 [INF] Executed action TicketApi.Controllers.ApiUsersController.Login (TicketApi) in 381.9771ms
+2023-01-04 17:58:49.226 +01:00 [INF] Executed endpoint 'TicketApi.Controllers.ApiUsersController.Login (TicketApi)'
+2023-01-04 17:58:49.226 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-01-04 17:58:49.226 +01:00 [DBG] Disposing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:58:49.226 +01:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-01-04 17:58:49.226 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7191/api/ApiUsers/login application/json 49 - 200 - application/json;+charset=utf-8 385.4315ms
+2023-01-04 17:59:45.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7191/api/Passenger - -
+2023-01-04 17:59:45.981 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Passenger'
+2023-01-04 17:59:45.981 +01:00 [DBG] Endpoint 'TicketApi.Controllers.PassengerController.GetAll (TicketApi)' with route pattern 'api/Passenger' is valid for the request path '/api/Passenger'
+2023-01-04 17:59:45.981 +01:00 [DBG] Request matched endpoint 'TicketApi.Controllers.PassengerController.GetAll (TicketApi)'
+2023-01-04 17:59:45.981 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-01-04 17:59:46.065 +01:00 [DBG] Successfully validated the token.
+2023-01-04 17:59:46.066 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-01-04 17:59:46.066 +01:00 [INF] Executing endpoint 'TicketApi.Controllers.PassengerController.GetAll (TicketApi)'
+2023-01-04 17:59:46.069 +01:00 [INF] Route matched with {action = "GetAll", controller = "Passenger"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TicketApi.Models.APIResponse]] GetAll() on controller TicketApi.Controllers.PassengerController (TicketApi).
+2023-01-04 17:59:46.069 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-01-04 17:59:46.069 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-01-04 17:59:46.070 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-01-04 17:59:46.070 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-01-04 17:59:46.070 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-01-04 17:59:46.070 +01:00 [DBG] Executing controller factory for controller TicketApi.Controllers.PassengerController (TicketApi)
+2023-01-04 17:59:46.198 +01:00 [DBG] Executed controller factory for controller TicketApi.Controllers.PassengerController (TicketApi)
+2023-01-04 17:59:46.200 +01:00 [INF] Getting all Scedules
+2023-01-04 17:59:46.259 +01:00 [DBG] Entity Framework Core 7.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.1' with options: None
+2023-01-04 17:59:46.267 +01:00 [DBG] Compiling query expression: 
+'DbSet<Passenger>()'
+2023-01-04 17:59:46.275 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Passenger>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Passenger.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Passenger.CreditCardId (int) Required, 1], [Property: Passenger.DateOfBirth (DateTime) Required, 2], [Property: Passenger.LocalUserId (int) Required, 3], [Property: Passenger.LoyaltyProgramId (int) Required, 4], [Property: Passenger.ReportId (int) Required, 5] }
+        SELECT p.Id, p.CreditCardId, p.DateOfBirth, p.LocalUserId, p.LoyaltyProgramId, p.ReportId
+        FROM Passengers AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Passenger>, 
+    TicketApi.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-01-04 17:59:46.298 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-01-04 17:59:46.298 +01:00 [DBG] Creating DbConnection.
+2023-01-04 17:59:46.298 +01:00 [DBG] Created DbConnection. (0ms).
+2023-01-04 17:59:46.298 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 17:59:46.298 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 17:59:46.305 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:59:46.312 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:59:46.313 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreditCardId], [p].[DateOfBirth], [p].[LocalUserId], [p].[LoyaltyProgramId], [p].[ReportId]
+FROM [Passengers] AS [p]
+2023-01-04 17:59:46.526 +01:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreditCardId], [p].[DateOfBirth], [p].[LocalUserId], [p].[LoyaltyProgramId], [p].[ReportId]
+FROM [Passengers] AS [p]
+2023-01-04 17:59:46.538 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Passenger' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-04 17:59:46.552 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Passenger' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-04 17:59:46.575 +01:00 [DBG] Closing data reader to 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:59:46.575 +01:00 [DBG] A data reader for 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' is being disposed after spending 48ms reading results.
+2023-01-04 17:59:46.584 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:59:46.585 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 17:59:46.633 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-01-04 17:59:46.635 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-01-04 17:59:46.635 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-01-04 17:59:46.635 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-01-04 17:59:46.635 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-01-04 17:59:46.635 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-01-04 17:59:46.635 +01:00 [INF] Executing OkObjectResult, writing value of type 'TicketApi.Models.APIResponse'.
+2023-01-04 17:59:46.650 +01:00 [INF] Executed action TicketApi.Controllers.PassengerController.GetAll (TicketApi) in 580.1358ms
+2023-01-04 17:59:46.651 +01:00 [INF] Executed endpoint 'TicketApi.Controllers.PassengerController.GetAll (TicketApi)'
+2023-01-04 17:59:46.657 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-01-04 17:59:46.657 +01:00 [DBG] Disposing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 17:59:46.657 +01:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-01-04 17:59:46.657 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7191/api/Passenger - - - 200 - application/json;+charset=utf-8 676.5723ms
+2023-01-04 18:00:01.569 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7191/api/Report - -
+2023-01-04 18:00:01.569 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Report'
+2023-01-04 18:00:01.569 +01:00 [DBG] Endpoint 'TicketApi.Controllers.ReportController.GetAll (TicketApi)' with route pattern 'api/Report' is valid for the request path '/api/Report'
+2023-01-04 18:00:01.569 +01:00 [DBG] Request matched endpoint 'TicketApi.Controllers.ReportController.GetAll (TicketApi)'
+2023-01-04 18:00:01.569 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-01-04 18:00:01.570 +01:00 [DBG] Successfully validated the token.
+2023-01-04 18:00:01.570 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-01-04 18:00:01.570 +01:00 [INF] Executing endpoint 'TicketApi.Controllers.ReportController.GetAll (TicketApi)'
+2023-01-04 18:00:01.573 +01:00 [INF] Route matched with {action = "GetAll", controller = "Report"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TicketApi.Models.APIResponse]] GetAll() on controller TicketApi.Controllers.ReportController (TicketApi).
+2023-01-04 18:00:01.573 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-01-04 18:00:01.573 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-01-04 18:00:01.573 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-01-04 18:00:01.573 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-01-04 18:00:01.573 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-01-04 18:00:01.573 +01:00 [DBG] Executing controller factory for controller TicketApi.Controllers.ReportController (TicketApi)
+2023-01-04 18:00:01.573 +01:00 [DBG] Executed controller factory for controller TicketApi.Controllers.ReportController (TicketApi)
+2023-01-04 18:00:01.574 +01:00 [INF] Getting all Scedules
+2023-01-04 18:00:01.575 +01:00 [DBG] Entity Framework Core 7.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.1' with options: None
+2023-01-04 18:00:01.591 +01:00 [DBG] Compiling query expression: 
+'DbSet<Report>()'
+2023-01-04 18:00:01.598 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Report>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Report.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Report.LocalUserId (int) Required, 1], [Property: Report.UserReport (string) Required, 2] }
+        SELECT r.Id, r.LocalUserId, r.UserReport
+        FROM Reports AS r), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Report>, 
+    TicketApi.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-01-04 18:00:01.599 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-01-04 18:00:01.599 +01:00 [DBG] Creating DbConnection.
+2023-01-04 18:00:01.599 +01:00 [DBG] Created DbConnection. (0ms).
+2023-01-04 18:00:01.599 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 18:00:01.599 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 18:00:01.599 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:01.599 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:01.600 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[LocalUserId], [r].[UserReport]
+FROM [Reports] AS [r]
+2023-01-04 18:00:01.706 +01:00 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[LocalUserId], [r].[UserReport]
+FROM [Reports] AS [r]
+2023-01-04 18:00:01.713 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Report' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-04 18:00:01.719 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Report' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-04 18:00:01.719 +01:00 [DBG] Closing data reader to 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:01.720 +01:00 [DBG] A data reader for 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' is being disposed after spending 13ms reading results.
+2023-01-04 18:00:01.720 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:01.720 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 18:00:01.727 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-01-04 18:00:01.727 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-01-04 18:00:01.727 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-01-04 18:00:01.727 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-01-04 18:00:01.727 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-01-04 18:00:01.727 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-01-04 18:00:01.727 +01:00 [INF] Executing OkObjectResult, writing value of type 'TicketApi.Models.APIResponse'.
+2023-01-04 18:00:01.729 +01:00 [INF] Executed action TicketApi.Controllers.ReportController.GetAll (TicketApi) in 156.1973ms
+2023-01-04 18:00:01.729 +01:00 [INF] Executed endpoint 'TicketApi.Controllers.ReportController.GetAll (TicketApi)'
+2023-01-04 18:00:01.729 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-01-04 18:00:01.729 +01:00 [DBG] Disposing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:01.729 +01:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-01-04 18:00:01.730 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7191/api/Report - - - 200 - application/json;+charset=utf-8 161.3751ms
+2023-01-04 18:00:15.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7191/api/Carrier - -
+2023-01-04 18:00:15.430 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Carrier'
+2023-01-04 18:00:15.430 +01:00 [DBG] Endpoint 'TicketApi.Controllers.CarrierController.GetAll (TicketApi)' with route pattern 'api/Carrier' is valid for the request path '/api/Carrier'
+2023-01-04 18:00:15.430 +01:00 [DBG] Request matched endpoint 'TicketApi.Controllers.CarrierController.GetAll (TicketApi)'
+2023-01-04 18:00:15.430 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-01-04 18:00:15.431 +01:00 [DBG] Successfully validated the token.
+2023-01-04 18:00:15.431 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-01-04 18:00:15.431 +01:00 [INF] Executing endpoint 'TicketApi.Controllers.CarrierController.GetAll (TicketApi)'
+2023-01-04 18:00:15.438 +01:00 [INF] Route matched with {action = "GetAll", controller = "Carrier"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TicketApi.Models.APIResponse]] GetAll() on controller TicketApi.Controllers.CarrierController (TicketApi).
+2023-01-04 18:00:15.438 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-01-04 18:00:15.438 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-01-04 18:00:15.438 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-01-04 18:00:15.438 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-01-04 18:00:15.438 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-01-04 18:00:15.438 +01:00 [DBG] Executing controller factory for controller TicketApi.Controllers.CarrierController (TicketApi)
+2023-01-04 18:00:15.439 +01:00 [DBG] Executed controller factory for controller TicketApi.Controllers.CarrierController (TicketApi)
+2023-01-04 18:00:15.440 +01:00 [INF] Getting all Scedules
+2023-01-04 18:00:15.440 +01:00 [DBG] Entity Framework Core 7.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.1' with options: None
+2023-01-04 18:00:15.441 +01:00 [DBG] Compiling query expression: 
+'DbSet<Carrier>()'
+2023-01-04 18:00:15.443 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Carrier>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Carrier.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Carrier.CarrierName (string) Required, 1], [Property: Carrier.LocalUserId (int) Required, 2], [Property: Carrier.ReportId (int) Required, 3] }
+        SELECT c.Id, c.CarrierName, c.LocalUserId, c.ReportId
+        FROM Carriers AS c), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Carrier>, 
+    TicketApi.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-01-04 18:00:15.443 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-01-04 18:00:15.443 +01:00 [DBG] Creating DbConnection.
+2023-01-04 18:00:15.443 +01:00 [DBG] Created DbConnection. (0ms).
+2023-01-04 18:00:15.443 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 18:00:15.443 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-01-04 18:00:15.443 +01:00 [DBG] Opening connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:15.443 +01:00 [DBG] Opened connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:15.443 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CarrierName], [c].[LocalUserId], [c].[ReportId]
+FROM [Carriers] AS [c]
+2023-01-04 18:00:15.549 +01:00 [INF] Executed DbCommand (106ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CarrierName], [c].[LocalUserId], [c].[ReportId]
+FROM [Carriers] AS [c]
+2023-01-04 18:00:15.552 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Carrier' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-04 18:00:15.556 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Carrier' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-04 18:00:15.556 +01:00 [DBG] Closing data reader to 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:15.556 +01:00 [DBG] A data reader for 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' is being disposed after spending 6ms reading results.
+2023-01-04 18:00:15.556 +01:00 [DBG] Closing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:15.556 +01:00 [DBG] Closed connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433' (0ms).
+2023-01-04 18:00:15.559 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-01-04 18:00:15.559 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-01-04 18:00:15.559 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-01-04 18:00:15.559 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-01-04 18:00:15.559 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-01-04 18:00:15.559 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-01-04 18:00:15.559 +01:00 [INF] Executing OkObjectResult, writing value of type 'TicketApi.Models.APIResponse'.
+2023-01-04 18:00:15.560 +01:00 [INF] Executed action TicketApi.Controllers.CarrierController.GetAll (TicketApi) in 121.5334ms
+2023-01-04 18:00:15.560 +01:00 [INF] Executed endpoint 'TicketApi.Controllers.CarrierController.GetAll (TicketApi)'
+2023-01-04 18:00:15.560 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-01-04 18:00:15.560 +01:00 [DBG] Disposing connection to database 'HZApi_db' on server 'tcp:jspppk2022.database.windows.net,1433'.
+2023-01-04 18:00:15.560 +01:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-01-04 18:00:15.560 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7191/api/Carrier - - - 200 - application/json;+charset=utf-8 130.7234ms
+2023-01-04 18:00:24.608 +01:00 [DBG] Connection id "0HMNEEILQPLRR" received FIN.
+2023-01-04 18:00:24.608 +01:00 [DBG] Connection id "0HMNEEILQPLRR" is closed. The last processed stream ID was 17.
+2023-01-04 18:00:24.609 +01:00 [DBG] Connection id "0HMNEEILQPLRR" sending FIN because: "The client closed the connection."
+2023-01-04 18:00:24.612 +01:00 [DBG] Connection id "0HMNEEILQPLRR" stopped.
