@@ -22,12 +22,12 @@ namespace TicketApi.Controllers
         protected APIResponse _response;
         private readonly IRepository<Schedule> _db;
         private readonly IMapper _mapper;
-        private readonly ILogger<Schedule> _logger;
+        //private readonly ILogger<Schedule> _logger;
 
-        public ScheduleController(IRepository<Schedule> db, ILogger<Schedule> logger, IMapper mapper)
+        public ScheduleController(IRepository<Schedule> db, IMapper mapper)
         {
             _db = db;
-            _logger = logger;
+            //_logger = logger;
             _mapper = mapper;
             this._response = new APIResponse(); 
         }
@@ -38,7 +38,7 @@ namespace TicketApi.Controllers
         {
             try
             {
-                _logger.LogInformation("Getting all Scedules");
+                //_logger.LogInformation("Getting all Scedules");
                 IEnumerable<Schedule> entities = await _db.GetAllAsync();
                 _response.Result = _mapper.Map<List<ScheduleDTO>>(entities);
                 _response.StatusCode = HttpStatusCode.OK;
@@ -55,7 +55,7 @@ namespace TicketApi.Controllers
 
         //Get Single entity
         [HttpGet("{id:int}")]
-        [Authorize(Roles = "Carrier")]
+        //[Authorize(Roles = "Carrier")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -67,7 +67,7 @@ namespace TicketApi.Controllers
             {
                 if (id == 0)
                 {
-                    _logger.LogError("Error with id" + id);
+                    //_logger.LogError("Error with id" + id);
                     _response.StatusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
                 }
@@ -94,7 +94,7 @@ namespace TicketApi.Controllers
 
         //Add new entity
         [HttpPost]
-        [Authorize(Roles = "Carrier")]
+        //[Authorize(Roles = "Carrier")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -126,7 +126,7 @@ namespace TicketApi.Controllers
 
         //Delete entity
         [HttpDelete("{id:int}")]
-        [Authorize(Roles = "Carrier")]
+        //[Authorize(Roles = "Carrier")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -149,7 +149,7 @@ namespace TicketApi.Controllers
                     return NotFound(_response);
                 }
 
-                _db.DeleteAsync(entity);
+                _db?.DeleteAsync(entity);
                 _response.StatusCode = HttpStatusCode.NoContent;
                 _response.IsSuccess= true;
                 return Ok(_response);
@@ -165,7 +165,7 @@ namespace TicketApi.Controllers
 
         //Update entity
         [HttpPut("{id:int}")]
-        [Authorize(Roles = "Carrier")]
+        //[Authorize(Roles = "Carrier")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -180,7 +180,7 @@ namespace TicketApi.Controllers
                     return BadRequest(_response);
                 }
                 Schedule model = _mapper.Map<Schedule>(updateDTO);          
-                 _db.UpdateAsync(model);
+                 _db?.UpdateAsync(model);
                 _response.StatusCode = HttpStatusCode.NoContent;
                 _response.IsSuccess = true;
                 return Ok(_response);
@@ -192,5 +192,7 @@ namespace TicketApi.Controllers
             }
             return _response;
         }
+
+
     }
 }

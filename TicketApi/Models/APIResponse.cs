@@ -13,5 +13,6 @@ namespace TicketApi.Models
         public List<string> ErrorMessage { get; set; }
 
         public object Result { get; set; }
+
     }
 }
